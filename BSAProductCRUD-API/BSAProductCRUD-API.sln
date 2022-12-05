@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSAProductCRUD-API", "BSAProductCRUD-API.csproj", "{12CACBE9-5E4C-4880-A3FC-2A6C975F8D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSAProductCRUD-API-Test", "..\BSAProductCRUD-API-Test\BSAProductCRUD-API-Test.csproj", "{B1776CAA-2D29-47C5-BE48-CD03BBFDE544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12CACBE9-5E4C-4880-A3FC-2A6C975F8D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CACBE9-5E4C-4880-A3FC-2A6C975F8D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CACBE9-5E4C-4880-A3FC-2A6C975F8D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CACBE9-5E4C-4880-A3FC-2A6C975F8D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1776CAA-2D29-47C5-BE48-CD03BBFDE544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1776CAA-2D29-47C5-BE48-CD03BBFDE544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1776CAA-2D29-47C5-BE48-CD03BBFDE544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1776CAA-2D29-47C5-BE48-CD03BBFDE544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4F1AF02-AD42-4C23-8F79-A7E05AD429CC}
+	EndGlobalSection
+EndGlobal
