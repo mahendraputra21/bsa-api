@@ -1,7 +1,7 @@
 # bsa-api
 BSA API CRUD
 
-#How to Run
+# How to Run Using Docker
 
 ```
 docker build -t web_api .
@@ -14,6 +14,11 @@ docker image
 ```
 docker-compose up
 ```
+
+```
+http://localhost:5000/swagger/index.html
+```
+
 
 
 
