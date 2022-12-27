@@ -18,6 +18,16 @@ docker-compose up
 http://localhost:5000/swagger/index.html
 ```
 
+## To override using env use this command
+```
+docker run --rm \
+-p 8080:80 \
+--name api-6 \
+-e ASPNETCORE_ENVIRONMENT="Staging" \
+-e ConnectionStrings__ProductDB="Server=host.docker.internal;Database=ProductDB;User Id=sa;Password=<pass>;MultipleActiveResultSets=true" \
+api:latest
+```
+
 
 
 
