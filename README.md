@@ -1,7 +1,6 @@
-# bsa-api
-BSA API CRUD
+# API CRUD USING NET 6 and DOCKER
 
-# How to Run Using Docker
+## How to Run Using Docker
 
 ```
 docker build -t web_api .
